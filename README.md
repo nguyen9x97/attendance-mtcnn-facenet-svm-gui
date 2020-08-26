@@ -16,5 +16,6 @@ requests
 psutil
 pandas
 vlc
+
 ## Download the pretrained model
 Pretrained model [20180402-114759](https://drive.google.com/file/d/1R77HmFADxe87GmoLwzfgMu_HY0IhcyBz/view) with architecture Inception-Resnet-v1 using the VGGFace2 dataset
