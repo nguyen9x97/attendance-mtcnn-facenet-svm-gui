@@ -6,8 +6,7 @@ This project uses MTCNN for face detection, pretrained FaceNet model for feature
 The code is tested using Tensorflow 1.14 under Ubuntu 18.04 with Python 3.5.6
 #### List of library for this project:
 * tensorflow==1.14
-tensorflow<2.0
-scipy==1.1.0
+* scipy==1.1.0
 scikit-learn
 opencv-python
 h5py
