@@ -1,4 +1,4 @@
-# Realtime Face Recognition - Attendance Management System
+# Realtime Face Recognition - Attendance Management System - Interface
 Face recognition based on repo: https://github.com/davidsandberg/facenet and https://github.com/nkloi/simple_facenet
 ## Description
 The project using Mt
