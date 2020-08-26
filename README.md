@@ -1,5 +1,3 @@
 # attendance-mtcnn-facenet-svm
-Realtime Face Recognition - Attendance Management System
-## test
-### test 1
-#### test 11
+# Realtime Face Recognition - Attendance Management System
+
