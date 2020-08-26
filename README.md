@@ -20,4 +20,5 @@ The code is tested using Tensorflow 1.14 under Ubuntu 18.04 with Python 3.5.6
 ### 1. Install requirements
 For installing the packages, use `pip install -r requirements.txt`
 ### 2. Download the pretrained model
-Pretrained model [20180402-114759](https://drive.google.com/file/d/1R77HmFADxe87GmoLwzfgMu_HY0IhcyBz/view) with architecture Inception-Resnet-v1 using the VGGFace2 dataset
+Pretrained model [20180402-114759](https://drive.google.com/file/d/1R77HmFADxe87GmoLwzfgMu_HY0IhcyBz/view) with architecture Inception-Resnet-v1 using the VGGFace2 dataset.
+Download and extract into **models** directory, result as below:
