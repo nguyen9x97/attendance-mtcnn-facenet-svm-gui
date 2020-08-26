@@ -4,7 +4,7 @@ Face recognition is based on repo: https://github.com/davidsandberg/facenet and 
 This project uses MTCNN for face detection, pretrained FaceNet model for feature extraction and SVM for classification. The results of face recognition are stored into the `csv` file, depend on `count` variable (for multiple reporting) or the confirmation (for single reporting). The **User Interface** is built for easy understanding.
 ## Compatibility
 The code is tested using Tensorflow 1.14 under Ubuntu 18.04 with Python 3.5.6
-#### List of library for this project:
+#### List of librar for this project:
 * tensorflow==1.14
 * scipy==1.1.0
 * scikit-learn
