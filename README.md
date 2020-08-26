@@ -4,3 +4,5 @@ Face recognition is based on repo: https://github.com/davidsandberg/facenet and 
 This project uses MTCNN for face detection, pretrained FaceNet model for feature extraction and SVM for classification.
 ## Compatibility
 The code is tested using Tensorflow 1.14 under Ubuntu 18.04 with Python 3.5.6
+## Pretrained model
+Model [20180402-114759](https://drive.google.com/file/d/1R77HmFADxe87GmoLwzfgMu_HY0IhcyBz/view) using the VGGFace2 dataset
