@@ -25,4 +25,4 @@ Pretrained model [20180402-114759](https://drive.google.com/file/d/1R77HmFADxe87
 ![model image](https://user-images.githubusercontent.com/55053550/91342893-e4d70a00-e805-11ea-9b9b-3c49316ff493.png)
 
 ## Overview of User Interface
-Run the GUI by `$ python attendance_gui.py` for **virtual environment** and `$ python attendance_gui.py` for **base environment**.
+Run the GUI by `$ python attendance_gui.py` for **virtual environment** and `$ python3 attendance_gui.py` for **base environment**.
