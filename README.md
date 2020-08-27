@@ -28,3 +28,9 @@ Pretrained model [20180402-114759](https://drive.google.com/file/d/1R77HmFADxe87
 Run the GUI by `$ python attendance_gui.py` for **virtual environment** and `$ python3 attendance_gui.py` for **base environment**, result as below:
 
 ![gui_overview](https://user-images.githubusercontent.com/55053550/91413973-138cc900-e876-11ea-9366-8dd08e8fa6d8.png)
+
+### 1. Collect dataset
+### 2. Training and evaluating
+### 3. Testing
+### 4. Reporting
+### 5. Hand report
