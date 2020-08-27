@@ -42,6 +42,6 @@ For evaluate, repare the dataset with same structure as the training set, then r
 ### 3. Testing
 After training model, use the saved model to testing result.
 * Face Detection: using local webcam as default, change the ``video_file`` from **None** to your own address for video file.
-* Face Recognition: the same as Face Detection.
+* Face Recognition: similar to Face Detection.
 ### 4. Reporting
 ### 5. Hand report
