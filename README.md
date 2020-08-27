@@ -20,7 +20,7 @@ The code is tested using Tensorflow 1.14 under Ubuntu 18.04 with Python 3.5.6
 ### 1. Install requirements
 For installing the packages, use `pip install -r requirements.txt`
 ### 2. Download the pretrained model
-Pretrained model [20180402-114759](https://drive.google.com/file/d/1R77HmFADxe87GmoLwzfgMu_HY0IhcyBz/view) with architecture Inception-Resnet-v1 using the VGGFace2 dataset. Download and extract into `models` directory, result as below:
+Pretrained model [20180402-114759](https://drive.google.com/file/d/1R77HmFADxe87GmoLwzfgMu_HY0IhcyBz/view) with architecture Inception-Resnet-v1 using the VGGFace2 dataset. Download and extract into `models` folder, result as below:
 
 ![model image](https://user-images.githubusercontent.com/55053550/91342893-e4d70a00-e805-11ea-9b9b-3c49316ff493.png)
 
@@ -30,6 +30,7 @@ Run the GUI by `$ python attendance_gui.py` for **virtual environment** and `$ p
 ![gui_overview](https://user-images.githubusercontent.com/55053550/91413973-138cc900-e876-11ea-9366-8dd08e8fa6d8.png)
 
 ### 1. Collect dataset
+The program uses **MTCNN algorithm** to detect face, then saves the image to the `your_dataset` folder.
 ### 2. Training and evaluating
 ### 3. Testing
 ### 4. Reporting
