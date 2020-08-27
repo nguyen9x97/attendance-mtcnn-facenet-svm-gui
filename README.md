@@ -32,7 +32,7 @@ Run the GUI by `$ python attendance_gui.py` for **virtual environment** and `$ p
 ### 1. Collect dataset
 The program uses **MTCNN algorithm** to detect face, then captures (requires only one face) and saves the image to the `your_dataset` folder.
 * For collection using android smartphone, download the **IP Webcam** apps in CHPlay and start server to get the IP address, then find the ``http://192.168.1.138:8080/video`` in ``utils_gui.py`` file and replace with your own IP address.
-* For camera IP, this project uses YooSee camera. Because ``FFMPEG`` **lib** does not support TCP for YooSee Camera, I use the **VLC Player** instead, so the fps is low but the frame is not broken. Replace the ``rtsp://admin:khoinguyen997@192.168.1.148:554/onvif1`` with your  ``rtsp``
+* For camera IP, this project uses YooSee camera. Because ``FFMPEG`` **lib** does not support TCP for YooSee Camera, I use the **VLC Player** instead, so the fps is low but the frame is not broken. Replace the ``rtsp://admin:khoinguyen997@192.168.1.148:554/onvif1`` with your  ``rtsp``.
 ### 2. Training and evaluating
 After collecting dataset, use ``Align dataset`` button to crop and align all images into 182x182 size, the results save in the ``face_align`` folder.
 ### 3. Testing
