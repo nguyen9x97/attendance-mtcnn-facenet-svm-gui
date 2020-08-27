@@ -3,7 +3,7 @@ Face recognition is based on repo: https://github.com/davidsandberg/facenet and 
 ## Description
 This project uses MTCNN for face detection, pretrained FaceNet model for feature extraction and SVM for classification. The results of face recognition are stored into the `csv` file, depend on `count` variable (for multiple reporting) or confirmation of users (for single reporting). The **User Interface** is built for easy understanding.
 ## Compatibility
-The code is tested using `Tensorflow 1.14` under `Ubuntu 18.04` with `Python 3.5.6`
+The code is tested using `Tensorflow 1.14` under `Ubuntu 18.04` with `Python 3.5.6`.
 #### List of libraries for this project:
 * tensorflow==1.14
 * scipy==1.1.0
@@ -44,6 +44,7 @@ After training model, use the saved model to testing result.
 * Face Detection: using local webcam as default, change the ``video_file`` from **None** to your own address for video file.
 * Face Recognition: similar to Face Detection.
 ### 4. Reporting
-The confidence is initialized to 0.4, which is the threshold for Face Recognition, you can increase the confidence for reducing false positive.
+* The `confidence` is initialized to 0.4, which is the threshold for Face Recognition, you can increase the confidence for reducing false positive.
+* The `count` variable is used for counting the number of sucessfully recognized on each of frame, This help to get rid of a few false positive objects, the default value is set to 0.
 ### 5. Hand report
 This option will be used for "hand report" if the system cannot recognize the face.
