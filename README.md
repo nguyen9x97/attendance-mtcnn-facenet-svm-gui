@@ -44,4 +44,6 @@ After training model, use the saved model to testing result.
 * Face Detection: using local webcam as default, change the ``video_file`` from **None** to your own address for video file.
 * Face Recognition: similar to Face Detection.
 ### 4. Reporting
+The confidence is initialized to 0.4, which is the threshold for Face Recognition, you can increase the confidence for reducing false positive.
 ### 5. Hand report
+This option will be used for "hand report" if the system cannot recognize the face.
