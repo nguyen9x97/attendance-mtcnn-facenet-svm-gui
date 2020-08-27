@@ -30,7 +30,7 @@ Run the GUI by `$ python attendance_gui.py` for **virtual environment** and `$ p
 ![gui_overview](https://user-images.githubusercontent.com/55053550/91413973-138cc900-e876-11ea-9366-8dd08e8fa6d8.png)
 
 ### 1. Collect dataset
-The program uses **MTCNN algorithm** to detect face, then saves the image to the `your_dataset` folder.
+The program uses **MTCNN algorithm** to detect face, then captures (requires only one face) and saves the image to the `your_dataset` folder.
 ### 2. Training and evaluating
 ### 3. Testing
 ### 4. Reporting
