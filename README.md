@@ -31,6 +31,7 @@ Run the GUI by `$ python attendance_gui.py` for **virtual environment** and `$ p
 
 ### 1. Collect dataset
 The program uses **MTCNN algorithm** to detect face, then captures (requires only one face) and saves the image to the `your_dataset` folder.
+* For collection using android smartphone, download the **IP Webcam** apps in CHPlay and start server to get the IP address, then find the ``http://192.168.1.138:8080/video`` in ``utils_gui.py`` file and replace with your own IP address.
 ### 2. Training and evaluating
 ### 3. Testing
 ### 4. Reporting
