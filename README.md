@@ -35,6 +35,9 @@ The program uses **MTCNN algorithm** to detect face, then captures (requires onl
 * For camera IP, this project uses YooSee camera. Because ``FFMPEG`` **lib** does not support TCP for YooSee Camera, I use the **VLC Player** instead, so the fps is low but the frame is not broken. Replace the ``rtsp://admin:khoinguyen997@192.168.1.148:554/onvif1`` with your  ``rtsp``.
 ### 2. Training and evaluating
 After collecting dataset, use ``Align dataset`` button to crop and align all faces into 182x182 size, the results are saved in the ``face_align`` folder.
+#### 2.1 Training
+#### 2.2 Evaluate
+#### 2.3 Remove student
 ### 3. Testing
 ### 4. Reporting
 ### 5. Hand report
