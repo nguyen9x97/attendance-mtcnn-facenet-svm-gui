@@ -34,9 +34,11 @@ The program uses **MTCNN algorithm** to detect face, then captures (requires onl
 * For collection using android smartphone, download the **IP Webcam** apps in CHPlay and *start server* to get the IP address, then find the ``http://192.168.1.138:8080/video`` in ``utils_gui.py`` file and replace with your own IP address.
 * For camera IP, this project uses YooSee camera. Because ``FFMPEG`` **lib** does not support TCP for YooSee Camera, I use the **VLC Player** instead, so the fps is low but the frame is not broken. Replace the ``rtsp://admin:khoinguyen997@192.168.1.148:554/onvif1`` with your  ``rtsp``.
 ### 2. Training and evaluating
-After collecting dataset, use ``Align dataset`` button to crop and align all faces into 182x182 size, the results are saved in the ``face_align`` folder.
+After collecting dataset, use ``Align dataset`` button to crop and align all faces into 182x182 size, the results are saved in the ``face_align`` folder. The dataset of faces_aligned should be checked before training.
 #### 2.1 Training
+Click the button ``Training/Updating`` to training the model.
 #### 2.2 Evaluate
+For evaluate, repare the dataset with same structure as the training set and run ``$ python eval_svm.py``
 #### 2.3 Remove student
 ### 3. Testing
 ### 4. Reporting
