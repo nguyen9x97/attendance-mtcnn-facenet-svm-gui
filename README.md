@@ -36,7 +36,7 @@ The program uses **MTCNN algorithm** to detect face, then captures (requires onl
 ### 2. Training and evaluating
 After collecting dataset, use ``Align dataset`` button to crop and align all faces into 182x182 size, the results are saved in the ``face_align`` folder. The dataset of faces_aligned should be checked before training.
 #### 2.1 Training
-Click the button ``Training/Updating`` to training the model.
+Click the button ``Training/Updating`` to train the model.
 #### 2.2 Evaluate
 For evaluate, repare the dataset with same structure as the training set, then run ``$ python eval_svm.py``
 ### 3. Testing
