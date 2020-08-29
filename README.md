@@ -38,7 +38,7 @@ After collecting dataset, use ``Align dataset`` button to crop and align all fac
 #### 2.1 Training
 Click the button ``Training/Updating`` to train the model (requires at least 2 class in dataset)
 #### 2.2 Evaluating
-For evaluation, prepare the dataset with same structure as the training set, then run ``$ python eval_svm.py``
+For evaluation, prepare the dataset with same structure as the training set in ``test_aligned_dataset`` folder, then run ``$ python eval_svm.py``
 ### 3. Testing
 After training model, use the saved model to test result. To break the video capture, press ``q`` button on keyboard.
 * Face Detection: use local webcam as default, change the ``video_file`` from **None** to your ``video_path`` for video file.
