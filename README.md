@@ -41,7 +41,7 @@ Click the button ``Training/Updating`` to train the model.
 For evaluation, repare the dataset with same structure as the training set, then run ``$ python eval_svm.py``
 ### 3. Testing
 After training model, use the saved model to test result.
-* Face Detection: using local webcam as default, change the ``video_file`` from **None** to your ``video_path`` for video file.
+* Face Detection: use local webcam as default, change the ``video_file`` from **None** to your ``video_path`` for video file.
 * Face Recognition: similar to Face Detection.
 ### 4. Reporting
 * The `confidence` is initialized to 0.4, which is the threshold for Face Recognition, you can increase the confidence for reducing false positive.
