@@ -48,3 +48,4 @@ After training model, use the saved model to testing result.
 * The `count` variable is used for counting the number of sucessfully recognized (each person) on each frame, This helps to get rid of a few false positive objects, the default value is set to 0.
 ### 5. Hand report
 This option will be used for "hand report" if the system cannot recognize the face.
+---
