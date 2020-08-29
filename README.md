@@ -44,6 +44,7 @@ After training model, use the saved model to test result. To break the video cap
 * Face Detection: use local webcam as default, change the ``video_file`` from **None** to your ``video_path`` for video file.
 * Face Recognition: similar to Face Detection.
 ### 4. Reporting
+* Convention: ``Student ID = MSSV``, ``Full name = Ho Ten``
 * The `confidence` is initialized to 0.4, which is the threshold for Face Recognition, you can increase the confidence for reducing false positive.
 * The `count` variable is used for counting the number of sucessfully recognized (each person) on each frame, This helps to get rid of a few false positive objects, the default value is set to 0.
 ### 5. Hand report
