@@ -227,7 +227,7 @@ def add_overlays_recog_test(frame, faces, frame_rate, colors, confidence=0.4):
                 if face.prob > confidence:
                     class_name = face.name
                 else:
-                    class_name = 'Unknow'
+                    class_name = 'Unknown'
                     # class_name = face.name
                 cv2.putText(frame, class_name, (face_bb[0], face_bb[3] + 30), cv2.FONT_HERSHEY_SIMPLEX, 0.8,
                             colors[idx], thickness=3, lineType=2)
@@ -390,7 +390,7 @@ def add_overlays_webcam_report(frame, faces, frame_rate, colors, confidence=0.4)
                 if face.prob > confidence:
                     class_name = face.name
                 else:
-                    class_name = 'Unknow'
+                    class_name = 'Unknown'
                     # class_name = face.name
                 cv2.putText(frame, class_name, (face_bb[0], face_bb[3] + 30), cv2.FONT_HERSHEY_SIMPLEX, 0.8,
                             colors[idx], thickness=3, lineType=2)
@@ -514,9 +514,9 @@ def add_overlays_android_report(frame, faces, frame_rate, colors, confidence=0.5
                 if face.prob > confidence:
                     class_name = face.name
                 else:
-                    class_name = 'Unknow'
+                    class_name = 'Unknown'
                     # class_name = face.name
-                if class_name != 'Unknow':
+                if class_name != 'Unknown':
                     names_dict[class_name] = names_dict.get(class_name, 0) + 1
                 cv2.putText(frame, class_name, (face_bb[0], face_bb[3] + 30), cv2.FONT_HERSHEY_SIMPLEX, 0.8,
                             colors[idx], thickness=3, lineType=2)
