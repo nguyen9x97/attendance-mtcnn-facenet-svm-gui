@@ -10,6 +10,7 @@ import re
 import shutil
 from tkinter import messagebox
 import pandas as pd
+from tkinter import Toplevel
 
 def rescale_frame(frame, percent=75):
     width = int(frame.shape[1] * percent/ 100)
