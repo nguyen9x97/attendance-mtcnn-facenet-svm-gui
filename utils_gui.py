@@ -426,6 +426,7 @@ def report_webcam_csv(csv_name, confidence, model_checkpoint = 'models', classif
     start_1 = time.time()
     global lst_student
     lst_student = []
+    time_per_student = []
 
     # Set fps
     frame_interval = 3  # Number of frames after which to run face detection
@@ -471,13 +472,20 @@ def report_webcam_csv(csv_name, confidence, model_checkpoint = 'models', classif
         if len(faces) == 1:
             if faces[0].prob > confidence:
                 if faces[0].name not in lst_student:
+                    start_rp = time.time()
+                    top_resp = Toplevel()
+                    top_resp.after(3000, top_resp.destroy)
                     #print(faces[0].name)
                     #print(type(faces[0].name)): string
                     #response = messagebox.askyesno("Face detected", faces[0].name + "\n" + "Want to save?")
-                    response = messagebox.askyesno("Face detected", faces[0].name, default="yes")
+                    response = messagebox.askyesno("Face detected", faces[0].name, parent=top_resp, default="yes")
                     if response:
+                        top_resp.destroy()
                         lst_student.append(faces[0].name)
                         add_to_csv(faces[0].name, csv_name)
+                        end_rp = time.time()
+                        print("Time per student:", end_rp - start_rp)
+                        time_per_student.append(end_rp-start_rp)
 
         if len(lst_student) >= 1:
             if len(lst_student) > 5:
@@ -503,6 +511,7 @@ def report_webcam_csv(csv_name, confidence, model_checkpoint = 'models', classif
     video_capture.release()
     cv2.destroyAllWindows()
     end_1 = time.time()
+    print("Time per student:", time_per_student)
     print('Total Execute time:', end_1 - start_1)
 
 def add_overlays_android_report(frame, faces, frame_rate, colors, confidence=0.5):
